@@ -86,32 +86,35 @@ body {
 	background-color: white;
 }
 
-@media screen and (max-width: 412px) {
+@media screen and (max-width: 600px) {
 	.flex-container {
 		flex-direction: column;
 	}
 
 	#red {
 		width: 100%;
+		height: 50px;
 	}
 
 	#blue {
 		margin-top: 10px;
 		width: 100%;
+		height: 50px;
 	}
 	#green {
 		width: 100%;
+		height: 50px;
 	}
 	#yellow {
 		width: 100%;
+		height: 50px;
 	}
 	#purple {
 		width: 100%;
+		height: 50px;
 	}
 	#orange {
 		width: 100%;
-	}
-	#red {
-		width: 100%;
+		height: 50px;
 	}
 }
