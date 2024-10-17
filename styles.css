@@ -4,7 +4,7 @@ body {
 
 .flex-container {
 	display: flex;
-	gap: 5px;
+	gap: 10px;
 }
 
 #red {
@@ -13,7 +13,7 @@ body {
 	align-items: center;
 	background-color: #f44336;
 	color: white;
-	height: 30px;
+	height: 40px;
 	width: 50vw;
 	border-radius: 5px;
 	margin-top: 30px;
@@ -25,7 +25,7 @@ body {
 	align-items: center;
 	background-color: #2196f3;
 	color: white;
-	height: 30px;
+	height: 40px;
 	width: 50vw;
 	border-radius: 5px;
 	margin-top: 30px;
@@ -37,7 +37,7 @@ body {
 	align-items: center;
 	background-color: #4caf50;
 	color: white;
-	height: 30px;
+	height: 40px;
 	width: 60vw;
 	border-radius: 5px;
 	margin-top: 10px;
@@ -49,7 +49,7 @@ body {
 	align-items: center;
 	background-color: #ffeb3b;
 	color: black;
-	height: 30px;
+	height: 40px;
 	width: 40vw;
 	border-radius: 5px;
 	margin-top: 10px;
@@ -60,7 +60,7 @@ body {
 	align-items: center;
 	background-color: #aa3bff;
 	color: white;
-	height: 30px;
+	height: 40px;
 	width: 50vw;
 	border-radius: 5px;
 	margin-top: 10px;
@@ -71,7 +71,7 @@ body {
 	align-items: center;
 	background-color: #ff623b;
 	color: white;
-	height: 30px;
+	height: 40px;
 	width: 50vw;
 	border-radius: 5px;
 	margin-top: 10px;
@@ -83,12 +83,13 @@ body {
 #yellow:hover,
 #purple:hover,
 #orange:hover {
-	background-color: white;
+	background-color: transparent;
 }
 
 @media screen and (max-width: 600px) {
 	.flex-container {
 		flex-direction: column;
+		gap: 0;
 	}
 
 	#red {
